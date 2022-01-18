@@ -10,3 +10,8 @@ main{
     height: 300px;
     padding: auto;
 }
+
+p{
+    color: wheat;
+    text-align: justify;
+}
