@@ -1,7 +1,12 @@
 *{
-    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(179, 137, 137);
 }
 
-h1{
-    color:white;
+main{
+    width: 300px;
+    height: 300px;
+    padding: auto;
 }
