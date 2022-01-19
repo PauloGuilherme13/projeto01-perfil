@@ -1,17 +1,28 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background-color: rgb(179, 137, 137);
+
+html,body{
+    height: 100%;
 }
 
-main{
-    width: 300px;
-    height: 300px;
-    padding: auto;
+.parent{
+    display: flex;
 }
 
-p{
-    color: wheat;
-    text-align: justify;
+.sidebar{
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    background-color: #268ead;
 }
+
+.sidebar-pos{
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50px);
+}
+
