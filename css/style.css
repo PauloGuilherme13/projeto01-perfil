@@ -14,7 +14,7 @@ html,body{
 }
 
 .sidebar{
-    width: 25%;
+    width: 20%;
     height: 100%;
     position: fixed;
     background-color: #268ead;
@@ -22,15 +22,18 @@ html,body{
 
 .sidebar-pos{
     position: absolute;
-    top: 20%;
+    top: 50%;
     transform: translateY(-50px);
+}
+
+.img-sidebar{
+    text-align: center;
 }
 
 .img-sidebar img{
     width: 80%;
-    margin-left: 10%;
     border: 8px solid #dde1e6;
-    border-radius: 60%; 
+    border-radius: 50%; 
 }
 
 .menu{
@@ -40,10 +43,10 @@ html,body{
 
 .menu a{
     color:#dde1e6;
-    opacity: 0.6;
-    font-size: 28px;
+    opacity: 0.4;
+    font-size: 24px;
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     text-decoration: none;
 }
 
@@ -57,7 +60,7 @@ html,body{
     width: 80%;
     height: 100%;
     overflow-y: auto;
-    padding: 0 7%;
+    padding: 0 3%;
 }
 
 section.descricao{
@@ -91,7 +94,7 @@ section.descricao p{
     margin-top: 20px;
 }
 
-.icons-social a img{
+.icons-social a  img{
     text-decoration: none;
     color: white;
     background-color: gray;
@@ -99,7 +102,7 @@ section.descricao p{
     height: 40px;
     border-radius: 20px;
     display:inline-block;
-    margin: 10px 10px;
+    margin: 0 10px;
     text-align: center;    
 }
 
